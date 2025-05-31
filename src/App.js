@@ -14,7 +14,7 @@ import Reg from './pages/Reg';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/FinalProject'>
       <div className={classes.fonCase}>
         <div className={classes.fon} />
       </div>
