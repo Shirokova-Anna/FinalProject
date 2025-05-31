@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FinalProject.git/static/css/main.b5839e7d.css",
-    "main.js": "/FinalProject.git/static/js/main.1a546291.js",
+    "main.js": "/FinalProject.git/static/js/main.b24f0e79.js",
     "static/media/INST.png": "/FinalProject.git/static/media/INST.db2612bd586501d9ed3e.png",
     "static/media/Forest.jpg": "/FinalProject.git/static/media/Forest.00b573b0d5b97d0de4b9.jpg",
     "static/media/Fix.jpg": "/FinalProject.git/static/media/Fix.964e67b31c95169c5629.jpg",
@@ -11,10 +11,10 @@
     "static/media/TG.png": "/FinalProject.git/static/media/TG.435430debc6c01a5fa6f.png",
     "index.html": "/FinalProject.git/index.html",
     "main.b5839e7d.css.map": "/FinalProject.git/static/css/main.b5839e7d.css.map",
-    "main.1a546291.js.map": "/FinalProject.git/static/js/main.1a546291.js.map"
+    "main.b24f0e79.js.map": "/FinalProject.git/static/js/main.b24f0e79.js.map"
   },
   "entrypoints": [
     "static/css/main.b5839e7d.css",
-    "static/js/main.1a546291.js"
+    "static/js/main.b24f0e79.js"
   ]
 }
