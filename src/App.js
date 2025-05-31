@@ -1,6 +1,6 @@
 import classes from './App.module.css';
 import Head from './components/Head';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home'
 import Foot from './components/Foot'
 import imgRoad from './imgs/RoadBike.jpg'
@@ -14,7 +14,7 @@ import Reg from './pages/Reg';
 
 function App() {
   return (
-    <BrowserRouter basename='/FinalProject'>
+    <HashRouter basename='/FinalProject'>
       <div className={classes.fonCase}>
         <div className={classes.fon} />
       </div>
@@ -49,7 +49,7 @@ function App() {
         </div>
       </div>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

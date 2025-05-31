@@ -1,7 +1,7 @@
 {
   "name": "final",
   "version": "0.1.0",
-  "homepage": "http://Shirokova-Anna.github.io/FinalProject.git",
+  "homepage": "https://Shirokova-Anna.github.io/FinalProject.git",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
