@@ -1,0 +1,80 @@
+
+.cap {
+    position: relative;
+    display: inline-block;
+    font-size: 1.1em;
+    font-family: 'TT Autonomous Trl', sans-serif;
+}
+.btn {
+   width: 240px;
+   font-size: 1em;
+   font-family: 'TT Autonomous Trl', sans-serif;
+   background: #eef3ed;
+   border-radius: 10px;
+   transition: 0.3s ease;
+   border: solid #8ca591;
+}
+
+.btn:hover {
+background: #a5c7ac;
+box-shadow: 0 0 10px black;
+}
+
+.menu {
+width: 240px;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: #8ca591;
+border: 1px solid #ccc ;
+list-style: none;
+padding: 10px 0;
+margin: 0;
+z-index: 100;
+border-radius: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.link:hover {
+    transform: scaleX(1.5);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .btn{ width: 220px; animation: pulse 3s infinite;}
+    .menu {width: 220px;}
+
+}
+
+@media screen and (max-width: 992px) {
+
+.btn { font-size: 1.2em; width: 250px;}
+.menu {width: 250px; font-size: 1.2em}
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .btn { font-size: 1.8em; width:600px;}
+.menu {width: 600px; font-size: 1.8em}
+.link {margin: 10px auto;}
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

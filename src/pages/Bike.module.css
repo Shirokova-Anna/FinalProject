@@ -1,0 +1,51 @@
+.img {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 5px black;
+
+}
+
+.img1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.reviewForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp {
+    margin: 5px 0;
+    padding: 1px;
+    border: solid 2px #8ca591;
+    border-radius: 4px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    max-width: 70%;
+    min-width: 70%;
+}
+
+.area {
+min-height: 100px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 992px) {
+    .img1 {width: 90%;}
+    .inp {max-width: 90%;
+        min-width: 90%;}
+}
+
+@media screen and (max-width: 768px) {
+    .inp {max-width: 98%;
+        min-width: 98%;
+    margin: 10px 0;}
+}

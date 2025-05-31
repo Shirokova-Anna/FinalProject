@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +9,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input, button, textarea, html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'TT Wellingtons Trial', sans-serif;
+                                                
+                                                
+}
+
+p, h3, h2 {
+  text-align: justify;
+}
+
+ul {
+  width: 60%;
+}
+
+
+
+p {
+  text-indent: 0.8cm;
+  padding: 2px;
+  margin: 2px;
+}
+h1, h2, h3 {
+  font-family: 'TT Autonomous Trl', sans-serif;
+  padding: 2px;
+  margin: 20px 0 2px 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+  ul {width: 80%;}
+
+}
+
+@media screen and (max-width: 992px) {
+
+ul {width: 85%;}
+
+
+}
+
+@media screen and (max-width: 768px) {
+p {font-size: 1.5em;}
+h1 {font-size: 2em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.65em;}
 }
